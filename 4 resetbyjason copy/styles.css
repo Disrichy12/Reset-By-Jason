@@ -616,6 +616,24 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.5;
 }
 
+social
+
+.secondfooter{
+  align-items: center;
+}
+
+.secondfooter {
+  display: flex;                /* Makes images sit side by side */
+  gap: 20px;                    /* Space between images */
+  flex-wrap: wrap;              /* Wrap to next line on small screens */
+  justify-content: center;      /* Center the images */
+  align-items: center;          /* Vertical alignment */
+  margin: 20px;
+}
+
+
+
+
 /* ===== Footer ===== */
 .site-footer {
   background: #07070a;
@@ -728,7 +746,6 @@ a { color: inherit; text-decoration: none; }
     gap: 10px;
   }
 }
-
 
 .actionshots{
   display: flex;                /* Makes images sit side by side */
